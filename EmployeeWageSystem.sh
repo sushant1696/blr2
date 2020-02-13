@@ -3,6 +3,6 @@ DailyEmployeeWage(){
 	PerHourWage=20
 	TotalHour=8
 	EmployeeWagePerDay=$(($PerHourWage*$TotalHour))
-	echo "Employee wage per day is =$EmployeeWagePerDay"
+	echo "Emp wage per day is==$EmployeeWagePerDay"
 }
 DailyEmployeeWage
