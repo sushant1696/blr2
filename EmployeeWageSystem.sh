@@ -2,9 +2,9 @@ CheckPresentAbsent(){
 rand=$(($RANDOM%2))
 if(($rand<1))
 then
-echo "Sorry the Employee is absent"
+echo "Sorry! the Employee is absent"
 else
-echo "Yes Employee is present"
+echo "Yes! the Employee is present"
 fi
 echo "$rand"
 }
