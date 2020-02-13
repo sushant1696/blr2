@@ -7,6 +7,6 @@ PartTimeEmployee(){
 	read wage
 	totalhour=4
 	PertTimeWage=$(($wage*$totalhour))
-	echo "Total wage of part time employee is = $PertTimeWage"
+	echo "The Employee total wage is = $PertTimeWage"
 }
 PartTimeEmployee
