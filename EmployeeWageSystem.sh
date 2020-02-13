@@ -1,14 +1,11 @@
-DailyEmployeeWage(){
-	PerHourWage=20
-	TotalHour=8
-	EmployeeWagePerDay=$(($PerHourWage*$TotalHour))
-
-	echo "Emp wage per day =$EmployeeWagePerDay"
-=======
-	echo "Emp wage per day is==$EmployeeWagePerDay"
-
+PartTimeEmployee(){
+	echo "enter any part time Employee= "
+	read name
+	echo "Part time Employee name is :$name"
+	echo "enter the per hour wage"
+	read wage
+	totalhour=4
+	PertTimeWage=$(($wage*$totalhour))
+	echo "Employee total wage is = $PertTimeWage"
 }
-DailyEmployeeWage
-
-
-
+PartTimeEmployee
