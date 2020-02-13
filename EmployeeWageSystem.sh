@@ -1,5 +1,5 @@
 PartTimeEmployee(){
-	echo "enter any part time Employee= "
+	echo "enter part time Employee name  "
 	read name
 	echo "Part time Employee name is :$name"
 	echo "enter the per hour wage"
